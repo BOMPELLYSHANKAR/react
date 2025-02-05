@@ -1,0 +1,5 @@
+folder structure:
+1.node modules:this will store all third party libraries
+**********
+public:this folder stores all the static files such as images,videos,html files.
+src:
