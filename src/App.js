@@ -32,17 +32,39 @@
 // }
 
 // export default App
-import React from 'react'
-import ChildProps from './components/ChildProps'
-import PropsChildrenEx from './components/PropsChildrenEx'
+// import React from 'react'
+// import ChildProps from './components/ChildProps'
+// import PropsChildrenEx from './components/PropsChildrenEx'
 
+// const App = () => {
+//   return (
+//     <div>
+//       <PropsChildrenEx username="shankar" company="meta">
+//         <h1>this data is passed as props children</h1>
+//         <ChildProps/>
+//       </PropsChildrenEx>
+//     </div>
+//   )
+// }
+// import React from "react";
+// import CBCStateEx from "./stateexamples/CBCStateEx";
+
+
+// const App = () => {
+//   return (
+//     <div>APP
+//       <CBCStateEx/>
+//     </div>
+//   )
+// }
+
+// export default App
+import React from 'react'
+import FBCStateEx from './stateexamples/FBCStateEx'
 const App = () => {
   return (
     <div>
-      <PropsChildrenEx username="shankar" company="meta">
-        <h1>this data is passed as props children</h1>
-        <ChildProps/>
-      </PropsChildrenEx>
+      <FBCStateEx/>
     </div>
   )
 }
